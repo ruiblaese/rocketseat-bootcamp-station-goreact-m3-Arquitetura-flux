@@ -5,13 +5,11 @@ import { Provider } from "react-redux";
 
 import store from "./store/index";
 
-import TodoList from "./TodoList";
-
-console.tron.log("testando");
+console.tron.log();
 
 const App = () => (
   <Provider store={store}>
-    <TodoList />
+    <h1>hello world</h1>
   </Provider>
 );
 
