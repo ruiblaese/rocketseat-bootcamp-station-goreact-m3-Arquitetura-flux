@@ -10,7 +10,7 @@ Footer.propType = {
 };
 
 const mapStateToProps = state => ({
-  count: state.favorites.length
+  count: state.favorites.data.length
 });
 
 export default connect(mapStateToProps)(Footer);
